@@ -1,0 +1,29 @@
+{
+    "name": "tahoelimited/XeroOAuth-PHP",
+    "description": "A fork of the Xero OAuth API for use with Symfony 2.",
+    "homepage": "https://github.com/tahoelimited/XeroOAuth-PHP",
+    "canonical": "https://github.com/XeroAPI/XeroOAuth-PHP",
+    "keywords": ["xero", "symfony"],
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Steve Gill",
+            "homepage": "https://github.com/stevergill"
+        },
+        {
+            "name": "Ronan Quirke (Xero)",
+            "homepage": "https://github.com/ronanq",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Xero": "lib"
+        }
+    },
+    "minimum-stability": "dev"
+}
