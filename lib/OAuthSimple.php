@@ -34,10 +34,7 @@
   * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-/** Define a custom Exception for easy trap and detection
-*/
-class OAuthSimpleException extends Exception {}
-
+namespace Xero;
 
 class OAuthSimple {
     var $_secrets;
